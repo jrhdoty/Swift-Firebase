@@ -20,6 +20,8 @@
 		7A1E6893199D614000C6F2A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1E6892199D614000C6F2A2 /* Security.framework */; };
 		7A1E6895199D614B00C6F2A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A1E6894199D614B00C6F2A2 /* SystemConfiguration.framework */; };
 		7A72D32E199D7FC70041315E /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A72D32D199D7FC70041315E /* FirebaseModel.swift */; };
+		7A72D331199E92540041315E /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A72D330199E92540041315E /* LandingPageViewController.swift */; };
+		7A72D333199E92750041315E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A72D332199E92750041315E /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7A1E6894199D614B00C6F2A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		7A1E6896199D617300C6F2A2 /* firebasetest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "firebasetest-Bridging-Header.h"; sourceTree = "<group>"; };
 		7A72D32D199D7FC70041315E /* FirebaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		7A72D330199E92540041315E /* LandingPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		7A72D332199E92750041315E /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +109,9 @@
 		7A1E6867199D5F2300C6F2A2 /* firebasetest */ = {
 			isa = PBXGroup;
 			children = (
+				7A72D32F199E91ED0041315E /* Controllers */,
 				7A72D32C199D7FAF0041315E /* Models */,
 				7A1E686A199D5F2300C6F2A2 /* AppDelegate.swift */,
-				7A1E686F199D5F2300C6F2A2 /* ViewController.swift */,
 				7A1E6871199D5F2300C6F2A2 /* Main.storyboard */,
 				7A1E6874199D5F2300C6F2A2 /* Images.xcassets */,
 				7A1E686C199D5F2300C6F2A2 /* firebasetest.xcdatamodeld */,
@@ -147,6 +151,16 @@
 				7A72D32D199D7FC70041315E /* FirebaseModel.swift */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		7A72D32F199E91ED0041315E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A1E686F199D5F2300C6F2A2 /* ViewController.swift */,
+				7A72D330199E92540041315E /* LandingPageViewController.swift */,
+				7A72D332199E92750041315E /* SignUpViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A72D333199E92750041315E /* SignUpViewController.swift in Sources */,
+				7A72D331199E92540041315E /* LandingPageViewController.swift in Sources */,
 				7A72D32E199D7FC70041315E /* FirebaseModel.swift in Sources */,
 				7A1E6870199D5F2300C6F2A2 /* ViewController.swift in Sources */,
 				7A1E686E199D5F2300C6F2A2 /* firebasetest.xcdatamodeld in Sources */,
